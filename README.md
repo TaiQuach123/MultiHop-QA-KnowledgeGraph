@@ -8,6 +8,7 @@
 
 ## :book: **Table of Contents**
 - [Introduction](#pencil-introduction)
+- [Demo](#computer-demo)
 - [Usage](#fork_and_knife-usage)
     - [Clone the github repo](#clone-the-github-repo)
     - [Install requirements](#install-requirements)
@@ -26,6 +27,9 @@
 ## :pencil: Introduction 
 This project aims to develop a question answering system that can provide comprehensive and informative responses to queries related job postings. The core component of this system is a knowledge graph meticulously constructed from a vast amount of job postings. This knowledge graph serves as a robust Retrieval Augmented Generation (RAG) engine, enabling an advanced language model to effectively extract and process relevant information.
 
+
+## :computer: Demo
+https://github.com/user-attachments/assets/ab38ee0e-3fc0-448f-96ae-346a2fbb6666
 
 ## :fork_and_knife: Usage
 ###  Clone the github repo
@@ -66,7 +70,7 @@ python main.py
 
 ## :package: Components
 ### Data Collection Module
-This module is responsible for automaticaly scraping and collecting job post data on a daily basis.
+This module is responsible for automatically scraping and collecting job post data on a daily basis.
 
 ![Data Collection Module](images/data_collection_module.png?raw=True)
 ### Knowledge Graph Module
@@ -82,7 +86,7 @@ This module is responsible for generating responses to user's queries. A ReAct a
 
 ## :key: **Key Features**
 
-- Ask and answer detailed information about available jobs both within and outside the knowledge base: required skills, experience, etc.
+- Ask and provide detailed information about available jobs both within and outside the knowledge base, including required skills, experience, etc.
 
 - Ask and answer information about the company: position, field, etc.
 
